@@ -1,0 +1,5 @@
+﻿You glance quickly around the tunnel in the dim light while swinging the pipe in your hand.
+
+You can LOOK AT the BRICKS.
+You can LOOK AT the broken GLASS.
+You can LOOK AT the RUBBLE ahead of you.

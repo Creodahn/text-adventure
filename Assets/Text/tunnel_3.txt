@@ -1,0 +1,6 @@
+﻿Dust still crawls around the pile of bricks. The tunnel is otherwise unchanged.
+
+
+You can LOOK AT the BRICKS.
+You can LOOK AT the broken GLASS.
+You can LOOK AT the RUBBLE ahead of you.

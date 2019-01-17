@@ -1,0 +1,3 @@
+﻿The bricks completely fill the tunnel behind you.
+There is no turning back.
+You can RETURN to the main part of the tunnel.

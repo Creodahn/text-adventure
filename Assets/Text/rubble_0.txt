@@ -1,0 +1,5 @@
+﻿The pile of rubble is made up of all sorts of different materials.
+There is a pipe sticking from the center of the unstable pile. It
+looks like it may be loose.
+You can RETURN to the main part of the tunnel.
+You can try to TAKE the PIPE.
