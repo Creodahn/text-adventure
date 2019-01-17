@@ -1,0 +1,7 @@
+﻿As you follow the tunnel, it seems that the damage is less obvious. In fact, the only odd thing about this section of the tunnel is that the lights are out.
+
+
+As you walk along, your flashlight begins to dim. It seems that the batteries have almost reached their limit. You spot an alcove to your left just as the flashlight dims to nothing. You are pretty sure that you saw a light switch in the alcove.
+
+
+You can ENTER the ALCOVE to try to find the light switch.

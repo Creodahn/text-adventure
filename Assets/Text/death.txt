@@ -1,0 +1,7 @@
+﻿As the onslaught ends, you lie on the ground, bleeding from numerous wounds. You try to get up, but find that you can't. Everything around you is hard to make out, as though you are viewing the world through a sheet of gauze. As you lay there, you realize that you are no longer breathing. You can do nothing as the life slowly ebbs from your body.
+
+
+YOU ARE DEAD. Sorry, you lose.
+
+
+You can type RESTART to begin the game again.

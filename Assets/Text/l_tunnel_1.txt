@@ -1,0 +1,10 @@
+﻿The alcove where you turned on the lights is to your left.
+
+
+Now that the lights are on, you can see that there is a bathroom to the right. Outside of the bathroom, there is a bench. It seems that there is a pile of clothing on the bench.
+
+
+You can ENTER the ALCOVE.
+You can ENTER the BATHROOM.
+You can APPROACH the BENCH.
+You can FOLLOW the TUNNEL.

@@ -1,0 +1,9 @@
+﻿After an indeterminate amount of time, you stop cowering. Cowering in fear has not changed your situation much. The tunnel still branches to the right and left.
+
+
+You notice that you have been hearing a new sound for the past few minutes. You are unsure of what it is, or where it is coming from.
+
+
+You can GO LEFT to try squeezing through the collapsed walls.
+You can GO RIGHT to try sneaking through the sparking wires.
+You can LISTEN to the SOUND.

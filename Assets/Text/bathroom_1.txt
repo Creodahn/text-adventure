@@ -1,0 +1,5 @@
+﻿The bathroom remains in the same state of disarray that you found it, with perhaps slightly more foul-smelling water on the floor.
+
+
+You can ENTER the open STALL.
+You can LEAVE the bathroom.
