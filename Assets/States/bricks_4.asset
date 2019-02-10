@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: bricks_4
+  m_EditorClassIdentifier: 
+  badInputResponse: 'This is not a valid input. Try again.
+
+
+'
+  expectedInputToAccessState: look at bricks
+  inventoryRequirements: []
+  setsPursued: 0
+  stateText: 'From time to time a small bit of debri falls from the remains of the
+    brick pile, kicking up a ghost of the previous dust cloud. The opening in the
+    pile of bricks yawns invitingly.
+
+
+
+    You can ENTER the OPENING in the bricks.
+
+    You can RETURN to the main part of the tunnel.'
+  possibleNextStates:
+  - {fileID: 11400000, guid: 146543fe5485c41d391673f2e0aebe44, type: 2}
+  - {fileID: 11400000, guid: 0f07ac269562242709333db88760cc8d, type: 2}

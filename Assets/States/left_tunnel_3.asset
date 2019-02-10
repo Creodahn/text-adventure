@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: left_tunnel_3
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: return
+  itemAddedToInventory: 
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: 30502cc9da8a04f3ba8dda4c2a781ef6, type: 2}
+  - {fileID: 11400000, guid: 1f32917c5efe44f40bd548c38c483d08, type: 2}
+  - {fileID: 11400000, guid: acd1a99fde55f46099492e8e97397db5, type: 2}
+  - {fileID: 11400000, guid: 7e067b473a40c46669274d22e5590a50, type: 2}
+  badInputResponse: '... huh?'
+  stateText: 'The alcove where you turned on the lights is to your left.
+
+
+
+    Now that the lights are on, you can see that there is a bathroom to the right.
+    Outside of the bathroom, there is a bench. It seems that there is a pile of clothing
+    on the bench.
+
+
+
+    You can ENTER the ALCOVE.
+
+    You can ENTER the BATHROOM.
+
+    You can APPROACH the BENCH.
+
+    You can FOLLOW the TUNNEL.'
+  visitedText: 'Nothing has changed in the hallway since you were last here.
+
+
+
+    You can ENTER the ALCOVE.
+
+    You can ENTER the BATHROOM.
+
+    You can APPROACH the BENCH.
+
+    You can FOLLOW the TUNNEL.'

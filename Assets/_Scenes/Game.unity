@@ -384,6 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76695b7b665048742ae492b86134e311, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialState: {fileID: 11400000, guid: dcd7d8155a7b14432a17c7c854fa992e, type: 2}
   input: {fileID: 1756104113}
   text: {fileID: 615070717}
   prompt: {fileID: 475114774}

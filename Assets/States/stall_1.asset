@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: stall_1
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: enter stall
+  itemAddedToInventory: gun
+  inventoryRequirements:
+  - gun
+  possibleNextStates:
+  - {fileID: 11400000, guid: acd1a99fde55f46099492e8e97397db5, type: 2}
+  badInputResponse: You can't do that in front of a corpse!\n\n
+  stateText: 'Now that you have taken the security guard''s gun, there is nothing
+    more you can do here. You offer a silent promise to the dead guard that you will
+    let someone know his body is here.
+
+
+
+    You can ENTER the BATHROOM.'
+  visitedText: 'The guard is still dead, so he doesn''t seem to notice your repeated
+    visits. You feel that you''ve been spending too much time staring at his corpse.
+    Perhaps it''s time to go somewhere else?
+
+
+
+    You can ENTER the BATHROOM.'

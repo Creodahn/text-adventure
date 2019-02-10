@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: left_tunnel_2
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: follow tunnel
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: 1f32917c5efe44f40bd548c38c483d08, type: 2}
+  badInputResponse: On second thought, it's too dark to do that.\n\n
+  stateText: 'As you follow the tunnel, it seems that the damage is less obvious.
+    In fact, the only odd thing about this section of the tunnel is that the lights
+    are out.
+
+
+
+    As you walk along, your flashlight begins to dim. It seems that the batteries
+    have almost reached their limit. You spot an alcove to your left just as the flashlight
+    dims to nothing. You are pretty sure that you saw a light switch in the alcove.
+
+
+
+    You can ENTER the ALCOVE to try to find the light switch.'

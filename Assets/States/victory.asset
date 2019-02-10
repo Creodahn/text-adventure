@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: victory
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: withstand
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: 862ae818ff5654dd48a3c290097c8366, type: 2}
+  badInputResponse: 'This is not a valid input. Try again.
+
+
+'
+  stateText: 'Your breathing is heavy, and you feel beaten both physically and mentally,
+    but you survived. At the back of the room, a ladder leads upwards to a hatch that
+    you push open after several tries. After a few moments of rest, you climb out
+    into the shining sun.
+
+
+
+    CONGRATULATIONS! You''ve escaped the tunnel! No, really!
+
+
+
+    You can type RESTART to start over.'
+  visitedText: 

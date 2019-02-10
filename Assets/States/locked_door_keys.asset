@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: locked_door_keys
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: follow tunnel
+  inventoryRequirements:
+  - keys
+  possibleNextStates:
+  - {fileID: 11400000, guid: f1fd67cfd7d0547f0ac991aed88fe7eb, type: 2}
+  - {fileID: 11400000, guid: f7f14cf3e387a4989a4d9b3f885adfc6, type: 2}
+  - {fileID: 11400000, guid: e76602c777a0d4e31836109d54eb6bfd, type: 2}
+  - {fileID: 11400000, guid: 0b2baf557eb4b4c1b987a54f9be7e0db, type: 2}
+  - {fileID: 11400000, guid: 9a6d9b7e602b4453baac565ab4664d0b, type: 2}
+  badInputResponse: '... what?\n\n'
+  stateText: 'Around a bend in the tunnel, you come to a door. You try the handle.
+    It is locked. Fortunately, you found some keys that you can try in the lock. They
+    seem to work. The door is now unlocked.
+
+
+
+    You can OPEN the DOOR.
+
+    You can RETURN to the previous section of tunnel.'
+  visitedText: 'The door still stands as it did previously. Remembering that you relocked
+    it as you left, you take out the keys and unlock it again.
+
+
+
+    You can OPEN the DOOR.
+
+    You can RETURN to the previous section of tunnel.'

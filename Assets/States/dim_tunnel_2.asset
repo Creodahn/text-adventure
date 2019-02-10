@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: dim_tunnel_2
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: cower
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: 553a2b947975f479985e3e28630b5fca, type: 2}
+  - {fileID: 11400000, guid: 5e08f1329a1c54854943c26857e91454, type: 2}
+  - {fileID: 11400000, guid: a6674d67408d74970a5130c5c948d408, type: 2}
+  badInputResponse: It may be that the beam of the flashlight is too dim, but you
+    can't find whatever that was to do that.\n\n
+  stateText: 'After an indeterminate amount of time, you stop cowering. Cowering in
+    fear has not changed your situation much. The tunnel still branches to the right
+    and left.
+
+
+
+    You notice that you have been hearing a new sound for the past few minutes. You
+    are unsure of what it is, or where it is coming from.
+
+
+
+    You can GO LEFT to try squeezing through the collapsed walls.
+
+    You can GO RIGHT to try sneaking through the sparking wires.
+
+    You can LISTEN to the SOUND.'
+  visitedText: 

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: death
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: withstand
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: 862ae818ff5654dd48a3c290097c8366, type: 2}
+  badInputResponse: 'This is not a valid input. Try again.
+
+
+'
+  stateText: 'As the onslaught ends, you lie on the ground, bleeding from numerous
+    wounds. You try to get up, but find that you can''t. Everything around you is
+    hard to make out, as though you are viewing the world through a sheet of gauze.
+    As you lay there, you realize that you are no longer breathing. You can do nothing
+    as the life slowly ebbs from your body.
+
+
+
+    YOU ARE DEAD. Sorry, you lose.
+
+
+
+    You can type RESTART to begin the game again.'
+  visitedText: 

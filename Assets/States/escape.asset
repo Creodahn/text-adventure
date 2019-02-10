@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: escape
+  m_EditorClassIdentifier: 
+  badInputResponse: 'This is not a valid input. Try again.
+
+
+'
+  expectedInputToAccessState: use pipe on rubble
+  inventoryRequirements: []
+  setsPursued: 0
+  stateText: 'Freedom at last! You feel a fresh breeze blowing in through the new
+    hole in the rubble. In the far distance, you can see the sunlight entering through
+    the end of the tunnel. You make for the exit as quickly as you are able.
+
+
+
+    CONGRATULATIONS! You escaped!
+
+
+
+    Type RESTART to play again.'
+  possibleNextStates:
+  - {fileID: 11400000, guid: 52eb69af87aed4b49b4ff61c2540e007, type: 2}

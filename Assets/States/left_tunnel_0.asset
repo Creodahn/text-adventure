@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: left_tunnel_0
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: go left
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: 834f1fbd1e1bd4ea088e9f5c2839cfd9, type: 2}
+  badInputResponse: There's nothing to do here but follow the tunnel.\n\n
+  stateText: 'You squeeze through the crack between the collapsed walls. As you go,
+    you hear something scrabbling at the opening where you entered. You quicken your
+    pace as much as possible. The scratching noise seems to be getting closer and
+    closer. You have the distinct feeling that you are not alone. As you reach the
+    end of the narrow space, something grabs the cuff of your pants. You pull as hard
+    as you can to get away. For a long moment, it seems that you are stuck fast, but
+    then your pants cuff gives way with a loud rip and you stumble out into the open
+    tunnel beyond the collapsed walls. As you do, you collide with a large timber
+    that had been keeping the passage open. The impact of your fall knocks it to the
+    ground, causing the space between the walls to collapse completely.
+
+
+
+    You pick yourself up and dust yourself off, surveying your surroundings.
+
+
+
+    You can FOLLOW the TUNNEL.'

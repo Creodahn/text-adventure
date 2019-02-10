@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: alcove_2
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: take keys
+  itemAddedToInventory: keys
+  inventoryRequirements:
+  - keys
+  possibleNextStates:
+  - {fileID: 11400000, guid: f1fd67cfd7d0547f0ac991aed88fe7eb, type: 2}
+  badInputResponse: You can't do that.\n\n
+  stateText: 'Since you have taken the keys from the table, there doesn''t appear
+    to be anything else to do in the alcove.
+
+
+
+    You can RETURN to the main part of the tunnel.'
+  visitedText: 

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: wake_1
+  m_EditorClassIdentifier: 
+  badInputResponse: 'This is not a valid input. Try again.
+
+
+'
+  expectedInputToAccessState: restart
+  inventoryRequirements: []
+  setsPursued: 0
+  stateText: 'You awaken in a dark place. As you slowly regain consciousness, you
+    realize that everything around you looks very familiar.
+
+
+    ...
+
+
+
+    Wait... this isn''t possible! Didn''t you just escape this tunnel? What''s going
+    on here?
+
+    Looking around yourself, you see the large pile of bricks from the wall is blocking
+    the way that you came. Some broken glass is covering the ground. A pile of rubble
+    blocks the tunnel ahead of you.
+
+
+
+    You can LOOK AT the BRICKS.
+
+    You can LOOK AT the broken GLASS.
+
+    You can LOOK AT the RUBBLE ahead of you.'
+  possibleNextStates:
+  - {fileID: 11400000, guid: b5ef863c1fb2b44d69b0c472e748fa1d, type: 2}
+  - {fileID: 11400000, guid: 69a7e3bc08a6b49cba658ff674f0ff45, type: 2}
+  - {fileID: 11400000, guid: 72f4170280a644a6790744ce2ebcaffb, type: 2}

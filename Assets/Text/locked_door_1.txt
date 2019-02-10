@@ -1,5 +1,0 @@
-﻿Around a bend in the tunnel, you come to a door. You try the handle. It is locked. Fortunately, you found some keys that you can try in the lock. They seem to work. The door is now unlocked.
-
-
-You can OPEN the DOOR.
-You can RETURN to the previous section of tunnel.

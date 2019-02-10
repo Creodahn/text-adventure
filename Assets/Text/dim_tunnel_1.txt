@@ -1,9 +1,0 @@
-﻿You blink to clear your eyes. As you adjust to the glow of the flashlight, you examine your surroundings. You recognize the section of the tunnel from before whatever happened that caused the collapse. You are no longer sure it was an earthquake. In fact, you can't quite recall what you were doing in the tunnel in the first place. Perhaps if you retrace your steps you'll be able to figure it out?
-
-
-The tunnel forks in front of you. Damage from the collapse is evident in both directions. To the right, you see some wires hanging down, sparking occassionally, but that branch is otherwise undamaged. To the left, the walls have collapsed inward, leaving a small vertical space that you think you can squeeze through.
-
-
-You can GO LEFT to try squeezing through the collapsed walls.
-You can GO RIGHT to try sneaking through the sparking wires.
-You can COWER in fear.

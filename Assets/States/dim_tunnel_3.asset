@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: dim_tunnel_3
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: listen sound
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: de8dd6867deb4400181a8bc22ccf10b6, type: 2}
+  - {fileID: 11400000, guid: 5b3ee84bbfefa43559be2eb3a2d16125, type: 2}
+  badInputResponse: You're not sure if it's the fear, or you just don't know what
+    you were thinking, but you can't figure out how to do that.\n\n
+  stateText: 'You listen intently to the sound. As you do so, you pan your flashlight
+    across the tunnel to see if you can find its source. Gradually, you begin to tell
+    it is coming from the lefthand branch of the tunnel. As you look, a shadow oozes
+    from the crack between the collapsed walls. At first it does not appear threatening,
+    but it grows larger as you watch. The shadow takes on hard, pointed edges, and
+    you realize that the sound is its inhuman growling.
+
+
+
+    The shadow begins creeping closer, now appearing as some great multi-legged beast.
+    You look around yourself, trying to find some way out.
+
+
+
+    You can try to GO LEFT and get around the creature through the crack it came from.
+
+    You can GO RIGHT and try to escape it through the sparking wires.'

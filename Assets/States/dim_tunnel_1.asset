@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: dim_tunnel_1
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: look around
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: 553a2b947975f479985e3e28630b5fca, type: 2}
+  - {fileID: 11400000, guid: 5e08f1329a1c54854943c26857e91454, type: 2}
+  - {fileID: 11400000, guid: 0c93191603a904f6b98dd76b730d24b2, type: 2}
+  badInputResponse: It may be that the beam of the flashlight is too dim, but you
+    can't find whatever that was to do that.\n\n
+  stateText: 'You blink to clear your eyes. As you adjust to the glow of the flashlight,
+    you examine your surroundings. You recognize the section of the tunnel from before
+    whatever happened that caused the collapse. You are no longer sure it was an earthquake.
+    In fact, you can''t quite recall what you were doing in the tunnel in the first
+    place. Perhaps if you retrace your steps you''ll be able to figure it out?
+
+
+
+    The tunnel forks in front of you. Damage from the collapse is evident in both
+    directions. To the right, you see some wires hanging down, sparking occassionally,
+    but that branch is otherwise undamaged. To the left, the walls have collapsed
+    inward, leaving a small vertical space that you think you can squeeze through.
+
+
+
+    You can GO LEFT to try squeezing through the collapsed walls.
+
+    You can GO RIGHT to try sneaking through the sparking wires.
+
+    You can COWER in fear.'

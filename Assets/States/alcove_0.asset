@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: alcove_0
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: enter alcove
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: 30502cc9da8a04f3ba8dda4c2a781ef6, type: 2}
+  - {fileID: 11400000, guid: f1fd67cfd7d0547f0ac991aed88fe7eb, type: 2}
+  badInputResponse: You can't do that.\n\n
+  stateText: 'As you enter the alcove, you nearly knock over a potted plant that you
+    could not see in the dark. Serendipitously, this causes you to put out your hand
+    to steady yourself against the wall, and you hit the light switch. The tunnel
+    floods with light, and you are nearly blinded in the sudden brightness. After
+    taking a few moments to adjust, you look around the alcove.
+
+
+
+    On a small table, you see some keys.
+
+
+
+    You can TAKE the KEYS.
+
+    You can RETURN to the main part of the tunnel.'
+  visitedText: 'The keys still sit on the table where they were before.
+
+
+
+    You can TAKE the KEYs.
+
+    You can RETURN to the main part of the tunnel.'

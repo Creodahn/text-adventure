@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: glass_3
+  m_EditorClassIdentifier: 
+  badInputResponse: 'This is not a valid input. Try again.
+
+
+'
+  expectedInputToAccessState: look at glass
+  inventoryRequirements: []
+  setsPursued: 0
+  stateText: 'The glass covering the floor seems to shine much more strongly than
+    it did before. You glance around, searching for the source of the illumination,
+    but you can''t find anything. It almost seems as though the glass glows from within.
+
+
+
+    You can RETURN to the main part of the tunnel.'
+  possibleNextStates:
+  - {fileID: 11400000, guid: 0f07ac269562242709333db88760cc8d, type: 2}

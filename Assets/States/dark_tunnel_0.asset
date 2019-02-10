@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: dark_tunnel_0
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: 
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: c8cab7ad32e074a07827264b9137203e, type: 2}
+  badInputResponse: You can't do that here. It's very, very dark.\n\n
+  stateText: 'As you crawl through the opening in the pile of bricks, chunks of mortar
+    fall on you. At first, you are too distracted by picking your way through the
+    small space to notice, but as you continue and more and more detritus falls on
+    you, it is impossible to ignore. Where before you had plenty of space, you are
+    now beginning to feel crushed by the weight of the fallen bricks. You crawl through
+    as fast as you can, and manage to get to the other side of the pile of bricks
+    just as the whole thing collapses. You are now trapped on this side of the pile.
+
+
+
+    You can FUMBLE AROUND in the dark to see if you can find anything.'
+  visitedText: 

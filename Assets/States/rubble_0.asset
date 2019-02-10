@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: rubble_0
+  m_EditorClassIdentifier: 
+  badInputResponse: 'This is not a valid input. Try again.
+
+
+'
+  expectedInputToAccessState: look at rubble
+  inventoryRequirements: []
+  setsPursued: 0
+  stateText: 'The pile of rubble is made up of all sorts of different materials.
+
+    There is a pipe sticking from the center of the unstable pile. It
+
+    looks like it may be loose.
+
+
+
+    You can RETURN to the main part of the tunnel.
+
+    You can try to TAKE the PIPE.'
+  possibleNextStates:
+  - {fileID: 11400000, guid: 527129b6109e44895a2e5447b91c145e, type: 2}
+  - {fileID: 11400000, guid: 37af86ef5ef434424985579c6f70e23e, type: 2}

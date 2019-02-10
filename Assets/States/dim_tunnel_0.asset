@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
+  m_Name: dim_tunnel_0
+  m_EditorClassIdentifier: 
+  expectedInputToAccessState: fumble around
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: a7839d556664b482f82c1fb631990985, type: 2}
+  badInputResponse: It may be that the beam of the flashlight is too dim, but you
+    can't find whatever that was to do that.\n\n
+  stateText: 'In the dark, your hand brushes something plastic and cylindrical. You
+    pick it up. The cylinder widens toward one end. You feel a rectangular protrusion
+    on the side. As you try to figure out what it is, the flashlight turns on, blinding
+    you. It seems that you flicked the switch without realizing it.
+
+
+
+    You can LOOK AROUND to see where you are.'
+  visitedText: 
