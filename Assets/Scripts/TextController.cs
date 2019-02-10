@@ -40,7 +40,7 @@ public class TextController : MonoBehaviour {
   
   // Use this for initialization
   void Start() {
-    StartCoroutine(Statestart());
+    StartCoroutine(StateStart());
   }
   
   // Update is called once per frame
@@ -48,7 +48,7 @@ public class TextController : MonoBehaviour {
     StateUpdate();
   }
 
-  IEnumerator Statestart() {
+  IEnumerator StateStart() {
     StreamReader reader = new StreamReader("Assets/Text/start.txt");
     string txt = reader.ReadToEnd();
     currentState = States.start;
