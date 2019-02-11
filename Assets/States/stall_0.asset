@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: stall_0
   m_EditorClassIdentifier: 
   expectedInputToAccessState: enter stall
+  itemAddedToInventory: 
   inventoryRequirements: []
   possibleNextStates:
   - {fileID: 11400000, guid: acd1a99fde55f46099492e8e97397db5, type: 2}
+  - {fileID: 11400000, guid: 8c471c94d73a2426d88cb450bd3d402c, type: 2}
   badInputResponse: You can't do that in front of a corpse!\n\n
   stateText: 'You aren''t sure what you expected to find in the stall, but it certainly
     wasn''t a dead security guard! He appears to have been beaten mercilessly. Perhaps

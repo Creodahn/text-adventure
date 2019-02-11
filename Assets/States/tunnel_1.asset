@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
   m_Name: tunnel_1
   m_EditorClassIdentifier: 
+  expectedInputToAccessState: return
+  itemAddedToInventory: 
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: 6757614a5492f477dbb9eb2aa6275e2f, type: 2}
+  - {fileID: 11400000, guid: cf9daafa8928e4ef89bc7f702bc55356, type: 2}
+  - {fileID: 11400000, guid: 37af86ef5ef434424985579c6f70e23e, type: 2}
   badInputResponse: 'This is not a valid input. Try again.
 
 
 '
-  expectedInputToAccessState: return
-  inventoryRequirements: []
-  setsPursued: 0
   stateText: 'You glance quickly around the tunnel in the dim light while swinging
     the pipe in your hand.
 
@@ -29,7 +33,4 @@ MonoBehaviour:
     You can LOOK AT the broken GLASS.
 
     You can LOOK AT the RUBBLE ahead of you.'
-  possibleNextStates:
-  - {fileID: 11400000, guid: 6757614a5492f477dbb9eb2aa6275e2f, type: 2}
-  - {fileID: 11400000, guid: cf9daafa8928e4ef89bc7f702bc55356, type: 2}
-  - {fileID: 11400000, guid: d3702e4c9eeab4e82902ce8b4e0ace61, type: 2}
+  visitedText: 

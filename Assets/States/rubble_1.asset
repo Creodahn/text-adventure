@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4856e17e883b14907b98bf0607323ccb, type: 3}
   m_Name: rubble_1
   m_EditorClassIdentifier: 
+  expectedInputToAccessState: take pipe
+  itemAddedToInventory: 
+  inventoryRequirements: []
+  possibleNextStates:
+  - {fileID: 11400000, guid: f7382f3e1f3074e95828419c99eafed1, type: 2}
+  - {fileID: 11400000, guid: ca6799ff8851048c085a323310122669, type: 2}
   badInputResponse: 'This is not a valid input. Try again.
 
 
 '
-  expectedInputToAccessState: take pipe
-  inventoryRequirements: []
-  setsPursued: 0
   stateText: 'As you pull the PIPE from the rubble, it gives an ominous groan. You
     manage to step out of the way just before the spot where you were standing is
     covered by a large portion of the detritus.
@@ -28,6 +31,11 @@ MonoBehaviour:
     You can RETURN to the main part of the tunnel.
 
     You can try to USE the PIPE ON the remaining RUBBLE.'
-  possibleNextStates:
-  - {fileID: 11400000, guid: f7382f3e1f3074e95828419c99eafed1, type: 2}
-  - {fileID: 11400000, guid: ca6799ff8851048c085a323310122669, type: 2}
+  visitedText: 'The rubble lays as it was before. The only change is that water has
+    begun to spill through it, presumably from where you removed the PIPE.
+
+
+
+    You can RETURN to the main part of the tunnel.
+
+    You can try to USE the PIPE ON the remaining RUBBLE.'

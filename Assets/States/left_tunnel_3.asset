@@ -20,6 +20,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1f32917c5efe44f40bd548c38c483d08, type: 2}
   - {fileID: 11400000, guid: acd1a99fde55f46099492e8e97397db5, type: 2}
   - {fileID: 11400000, guid: 7e067b473a40c46669274d22e5590a50, type: 2}
+  - {fileID: 11400000, guid: 3eed78f46785f4ecf94c62f34fcaa146, type: 2}
+  - {fileID: 11400000, guid: 3eed78f46785f4ecf94c62f34fcaa146, type: 2}
   badInputResponse: '... huh?'
   stateText: 'The alcove where you turned on the lights is to your left.
 
